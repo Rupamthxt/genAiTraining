@@ -12,4 +12,4 @@ st.chat_input("What are you asking today?")
 
 st.chat_message("user",avatar="👌").write("Hello")
 
-st.balloons()
+# st.balloons()
