@@ -1,0 +1,25 @@
+VectraDB Inc. - Employee Handbook & Company Policies
+Last Updated: January 2026
+
+1. Work Environment & Remote Work
+VectraDB Inc. is a remote-first company. Employees are permitted to work from any location globally, provided they maintain a secure and stable internet connection. 
+Core Collaboration Hours: Regardless of time zone, all employees are expected to be online and available for meetings between 10:00 AM and 2:00 PM Eastern Standard Time (EST). Outside of these core hours, your schedule is entirely flexible.
+
+2. Paid Time Off (PTO) & Holidays
+We believe in a healthy work-life balance. All full-time employees receive 25 days of paid flexible time off per year. Additionally, employees receive 10 paid sick days. 
+Company-wide holidays include standard federal holidays, plus a mandatory "Winter Shutdown" from December 24th through January 1st where the entire office is closed.
+
+3. Home Office & Equipment Stipend
+To ensure our team has the best tools, every new hire receives a one-time $2,500 Home Office Setup Stipend. This can be used for desks, ergonomic chairs, monitors, or internet upgrades. 
+Standard issue hardware is a 16-inch MacBook Pro or a high-performance Linux workstation. Hardware is eligible for a refresh every 3 years. If your equipment needs repair, contact IT support at it-help@vectradb.com.
+
+4. Travel & Expense Policy
+For authorized company travel, employees may book flights and hotels using the corporate portal. 
+- Flights over 6 hours in duration are eligible for an upgrade to Premium Economy.
+- Daily meal per diem during travel is capped at $85 per day.
+- Alcohol is not a reimbursable expense unless part of an approved client dinner.
+All expenses must be submitted within 30 days of the receipt date via the Expensify dashboard.
+
+5. Data Security & AI Usage
+Security is our top priority. Employees are encouraged to use Generative AI tools to enhance productivity; however, strictly no proprietary code, customer data, or internal architecture documents may be pasted into public LLMs (e.g., standard ChatGPT or Claude). 
+For tasks requiring internal data context, employees must use our self-hosted, offline Llama 3 endpoints or seek explicit written approval from the Security Director.
