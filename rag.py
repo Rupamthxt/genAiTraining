@@ -4,7 +4,14 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM as Ollama
 from langchain_ollama import OllamaEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
+import os
+import dotenv
 
+dotenv.load_dotenv()
+api_key = dotenv.get_key(dotenv.find_dotenv(), "GEMINI_API_KEY")
+
+os.environ["GOOGLE_API_KEY"] = api_key
 # INGESTION
 print("Loading document...")
 loader = TextLoader("company_policy.txt") # Create a dummy text file first
@@ -28,7 +35,7 @@ relevant_chunks = retriever.invoke(question)
 
 # GENERATION
 print("\nGenerating Answer...")
-llm = Ollama(model="llama3")
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 # The RAG Prompt
 template = """
